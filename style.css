@@ -88,3 +88,25 @@ p {
     margin-right: 6px;
 }
 /* faiure section end */
+/* bonus part 1 start */
+.gradient{
+    margin: 0px 100px;   
+}
+.gradient-section{
+    background-image: url(/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 200px;
+}
+h2{
+    z-index: 10;
+}
+.color-overlay{
+    background: linear-gradient(to top right,blue, red);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .4;
+}
+
