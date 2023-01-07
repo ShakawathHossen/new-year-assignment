@@ -88,25 +88,88 @@ p {
     margin-right: 6px;
 }
 /* faiure section end */
-/* bonus part 1 start */
-.gradient{
-    margin: 0px 100px;   
+/* my plans section style start  */
+.my-plans-h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    margin: 60px 0;
 }
-.gradient-section{
-    background-image: url(/images/watch.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 200px;
+.my-plan{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 150px;
 }
-h2{
-    z-index: 10;
-}
-.color-overlay{
-    background: linear-gradient(to top right,blue, red);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: .4;
-}
+.my-plans-h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    margin: 16px;
 
+}
+.my-plans-p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    margin: 16px;
+  
+}
+/* my plans section style end */
+
+/* bonus part 1 start  */
+/* bonus part 1 end  */
+
+/* future section style start  */
+.future{
+    display: flex;
+    padding: 10px 150px;
+     background: #151414;
+     font-family: 'Work Sans';
+     color: #F8F8F8;
+
+}
+.future-section-left{
+    padding: 50px;
+    font-family: 'Work Sans';
+}
+.future-section-right{
+    padding: 50px;
+    font-family: 'Work Sans';
+}
+.future-section-title{ 
+
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+}
+.future-section-description{
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+}
+.email-input-field{
+    padding: 10px;
+    margin: 10px 0px;
+    width: 325px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+.submit-button{
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 13px 20px;
+    background-color: #005FAC;
+    color: #ffffff;
+    cursor: pointer;
+}
+.fa-brands{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+/* future section style end  */
